@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="top-container">
+        <div id="logo">Code Player</div>
+        <div id="toggle-container">
+            <ul>
+                <li><a id="htmlt" class="button" href="#">HTML</a></li>
+                <li><a id="csst" class="button" href="#">CSS</a></li>
+                <li><a id="jst" class="button" href="#">JavaScript</a></li>
+                <li><a id="outputt" class="button" href="#">Output</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="main-container">
+        <div class="toggleble" id="html">
+            <textarea id="htmltext"><p id="paragraph">Hellooo</p>
+            </textarea>
+        </div>
+        <div class="toggleble" id="css">
+            <textarea id="csstext">p {
+color:green;
+}
+            </textarea>
+        </div>
+        <div class="toggleble" id="js">
+            <textarea id="jstext">document.getElementById("paragraph").innerHTML = "Hello"
+            </textarea>
+        </div>
+        <div class="toggleble" id="output">
+            <iframe id="ifr">
+
+            </iframe>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

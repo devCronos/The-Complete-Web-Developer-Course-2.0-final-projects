@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    
+  </head>
+
+  <body>
+    <div class="app-page" data-page="home">
+      <div class="app-topbar">
+        <div class="app-title">Send email</div>
+      </div>
+      <div class="app-content">
+            <p class="app-section">
+					Chose the email from the list below or add a new one.
+		    </p>
+
+
+            <div class="app-section" id="contant-list">
+
+			</div>
+
+            <div class="app-section">
+                <div class="app-button" data-target="sendemail">Email new user</div>
+        </div>
+      </div>
+    </div>
+
+
+
+		<div class="app-page" data-page="sendemail">
+			<div class="app-topbar">
+				<div class="app-title">Send email</div>
+				<div class="right app-button" data-back>Done</div>
+			</div>
+
+			<div class="app-content">
+
+                <div class="app-section" id="message">
+
+				</div>
+
+				<div class="app-section">
+					From: <input class="app-input" placeholder="From:" id="Your Email Address">
+				</div>
+
+                <div class="app-section">
+					To: <input class="app-input" placeholder="Recipient Email Address" id="recipient-email">
+				</div>
+
+				<form class="app-section">
+					<input class="app-input" name="subject" placeholder="Subject">
+					<textarea class="app-input" name="message" placeholder="Message"></textarea>
+					<div class="app-button green app-submit" id="sendButton">Send</div>
+				</form>
+			</div>
+		</div>
+
+  </body>
+</html>

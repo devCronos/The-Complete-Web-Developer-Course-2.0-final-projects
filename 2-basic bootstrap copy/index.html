@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css-->
+    <style type="text/css">
+        nav {
+            transform: translateX(-50%, -50%);
+        }
+        .jumbotron {
+            background-image: url(xy9tbpyhr34-i-m-priscilla.jpg);
+            background-size: cover;
+            text-align: center;
+            margin-top:50px;
+        }
+        @media only screen and (max-width : 550px) {
+            .jumbotron {margin-top:120px}
+        }
+        #email {
+            width:300px;
+        }
+        #about {
+            text-align: center;
+            padding-top:60px;
+            margin-bottom: 60px;
+        }
+        #cards {
+            margin-bottom: 40px;
+        }
+        #dld {
+            text-align: center;
+            padding-top:200px;
+            padding-bottom: 150px;
+            background-color: #34ceff;
+        }
+        #dldimg {
+            height:70px;
+        }
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#navbar">
+<nav class="navbar navbar-light bg-faded navbar-fixed-top" >
+
+  <a class="navbar-brand" href="#">Navbar</a>
+
+    <div class="navbar-nav" id="navbar">
+      <a class="nav-item nav-link" href="#jumbotron">Home</a>
+      <a class="nav-item nav-link" href="#about">About</a>
+      <a class="nav-item nav-link" href="#dld">Download The App</a>
+    </div>
+
+
+    <form class="form-inline pull-xs-right">
+
+      <input type="Email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Email">
+      <input type="password" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Password">
+      <button type="submit" class="btn btn-success">Log In</button>
+    </form>
+</nav>
+
+        <div class="jumbotron" id="jumbotron">
+      <h1 class="display-3 text-center mt-4">My Amazing App</h1>
+      <p class="lead">This is WHY you should stick around.</p>
+      <hr class="my-5">
+      <p class="text-center">Subscribe for more amazingness.</p>
+      <p class="lead">
+<form class="form-inline">
+
+
+  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+    <div class="input-group-addon">@</div>
+    <input type="text" class="form-control" id="email" placeholder="Your Email">
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Sign Up</button>
+</form>
+
+    </div>
+
+<div class="container"><div class="row" id="about">
+    <h1>This is some centered text.</h1>
+    <p>Still Centered but smaller.</p>
+
+</div>
+</div>
+
+<div class="container" id="cards">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="95e630f2039913d48021ce06b353f77f.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="95e630f2039913d48021ce06b353f77f.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This card<i class="fa fa-bath" aria-hidden="true"></i> has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last up<i class="fa fa-bug" aria-hidden="true"></i>dated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="95e630f2039913d48021ce06b353f77f.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a wid<i class="fa fa-bug" aria-hidden="true"></i>er card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="dld">
+    <div class="row">
+        <p class="lead">Download The app now</p>
+        <p>Really, why should you wait ?</p>
+        <a href="#"><img id="dldimg" src="Download_on_the_App_Store_Badge.svg.png"></a>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('body').scrollspy({ target: '#navbar' });
+    </script>
+</body>
+</html>

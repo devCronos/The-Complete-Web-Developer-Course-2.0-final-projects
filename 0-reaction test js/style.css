@@ -1,0 +1,7 @@
+#shape {
+    width: 200px;
+    height: 200px;
+    background-color: mediumpurple;
+    display: none;
+    position: relative;
+}
